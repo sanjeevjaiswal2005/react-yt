@@ -9,28 +9,54 @@ body {
   width: 100%;
   height: 100%;
 }
-
-/* h1 {
-  font-size: 100px;
-  display: inline-block;
-  background-color: red;
+body {
   padding: 30px;
-  border-radius: 8px;
+  background-color: #111;
+}
+.pairent {
+  height: 80px;
+  width: 120px;
+  background-color: red;
   color: white;
-  margin: 10% 0 0 10%;
-} */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
 
 button {
   padding: 10px 20px;
-  display: block;
   background-color: royalblue;
-  color: white;
-  border: none;
-  font-size: 25px;
   border-radius: 8px;
-  margin: 20px 0 0 10%;
+  font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
+  border: none;
+  margin-top: 5px;
 }
 button:active {
   scale: 0.94;
+}
+
+.wash {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.Male {
+  background-color: blue;
+}
+.Female {
+  background-color: pink;
+}
+.Other {
+  background: conic-gradient(yellow, green, blue, black, red, yellow);
 }
