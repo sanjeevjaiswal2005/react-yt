@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* h1 {
+  font-size: 100px;
+  display: inline-block;
+  background-color: red;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin: 10% 0 0 10%;
+} */
+
+button {
+  padding: 10px 20px;
+  display: block;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  font-size: 25px;
+  border-radius: 8px;
+  margin: 20px 0 0 10%;
+  cursor: pointer;
+}
+button:active {
+  scale: 0.94;
+}
