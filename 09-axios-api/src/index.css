@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+:root {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: royalblue;
+  border: none;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.all-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ gap: 10px;
+}
